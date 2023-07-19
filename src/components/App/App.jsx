@@ -1,8 +1,8 @@
-import Logo from "../../UI/Logo/Logo";
+import Header from "../Header/Header";
 
 const App = () => (
   <div>
-    <Logo />
+    <Header />
   </div>
 );
 

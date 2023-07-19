@@ -1,0 +1,30 @@
+.Button {
+  border: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 3px;
+  padding: 8px 20px;
+  background-color: var(--interface-main-1-color);
+  color: var(--interface-landing-button-color);
+  font-family: inherit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.Button:hover {
+  opacity: 0.8;
+}
+
+.submitButton {
+  padding: 15px 125px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767.98px) {
+  .Button {
+    font-size: 10px;
+    padding: 5px 12px;
+  }
+}

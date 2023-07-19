@@ -1,0 +1,23 @@
+.Account {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: var(--interface-font-main-color);
+  text-decoration: none;
+}
+
+.container {
+  background-color: var(--interface-special-1-color);
+  width: 26px;
+  height: 30px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
