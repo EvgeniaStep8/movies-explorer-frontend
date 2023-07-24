@@ -7,6 +7,14 @@ const Navigation = () => {
   return (
     <nav className={styles.Navigation}>
       <Link
+        to="/"
+        className={cn(styles.link, styles.mainLink, {
+          [styles.selectLink]: location === "/",
+        })}
+      >
+        Главная
+      </Link>
+      <Link
         to="/movies"
         className={cn(styles.link, {
           [styles.selectLink]: location === "/movies",

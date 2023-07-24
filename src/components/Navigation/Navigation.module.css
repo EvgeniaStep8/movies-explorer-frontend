@@ -12,6 +12,14 @@
   color: var(--interface-font-main-color);
 }
 
+.link:hover {
+  opacity: 0.7;
+}
+
+.mainLink {
+  display: none;
+}
+
 .selectLink {
   font-weight: 500;
 }
@@ -23,9 +31,14 @@
   }
 
   .link {
+    text-align: center;
     font-size: 18px;
     font-weight: 500;
     line-height: normal;
+  }
+
+  .mainLink {
+    display: inline;
   }
 
   .selectLink {

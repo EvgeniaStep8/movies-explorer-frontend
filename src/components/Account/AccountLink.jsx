@@ -1,16 +1,14 @@
 import { Link } from "react-router-dom";
-import styles from "./Account.module.css";
+import styles from "./AccountLink.module.css";
 import AccountIcon from "../../UI/icons/AccountIcon";
 
 const Account = () => (
-  <div className={styles.Account}>
-    <Link to="/profile" className={styles.link}>
-      Аккаунт
-    </Link>
+  <Link to="/profile" className={styles.AccountLink}>
+    <p className={styles.text}>Аккаунт</p>
     <div className={styles.container}>
       <AccountIcon />
     </div>
-  </div>
+  </Link>
 );
 
 export default Account;
