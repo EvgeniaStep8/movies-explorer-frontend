@@ -1,8 +1,9 @@
 import styles from "./Main.module.css";
+import Promo from "../Promo/Promo";
 
 const Main = () => (
   <main className={styles.Main}>
-    <p>Main</p>
+    <Promo />
   </main>
 );
 
