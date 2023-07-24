@@ -1,0 +1,48 @@
+.Footer {
+  box-sizing: border-box;
+  padding: 79px 70px 20px;
+  background-color: var(--interface-primary-footer-color);
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--interface-font-2-color);
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: solid 1px var(--interface-stroke-2-color);
+}
+
+.copyright {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--interface-font-main-color);
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--interface-font-main-color);
+}
