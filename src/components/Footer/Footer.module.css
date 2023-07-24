@@ -46,3 +46,7 @@
   line-height: normal;
   color: var(--interface-font-main-color);
 }
+
+.link:hover {
+  opacity: 0.7;
+}
