@@ -5,7 +5,7 @@ import styles from "./Header.module.css";
 import Logo from "../../UI/Logo/Logo";
 import Button from "../../UI/Button/Button";
 import Navigation from "../Navigation/Navigation";
-import AccountLink from "../Account/AccountLink";
+import AccountLink from "../AccountLink/AccountLink";
 import CloseIcon from "../../UI/icons/CloseIcon";
 import BurgerIcon from "../../UI/icons/BurgerIcon";
 
