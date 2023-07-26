@@ -1,5 +1,5 @@
 .AboutMe {
-  padding: 110px 70px 125px;
+  padding: 110px 70px 120px;
   background-color: var(--interface-primary-color);
 }
 
@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 1023.98px) {
   .AboutMe {
-    padding: 90px 50px;
+    padding: 90px 50px 70px;
   }
 
   .container {
@@ -103,12 +103,13 @@
 
 @media screen and (max-width: 767.98px) {
   .AboutMe {
-    padding: 70px 14px;
+    padding: 73px 14px;
   }
 
   .container {
     grid-template-columns: 1fr 200px;
     margin: 60px 0 70px;
+    gap: 0;
   }
 
   .info {
