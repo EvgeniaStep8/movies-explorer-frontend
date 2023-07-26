@@ -1,0 +1,148 @@
+.AboutMe {
+  padding: 110px 70px 125px;
+  background-color: var(--interface-primary-color);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 270px;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  margin: 66px 0 100px;
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  color: var(--interface-font-main-color);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: -2px;
+  margin-bottom: 18px;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  color: var(--interface-font-main-color);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 26px;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  color: var(--interface-font-main-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 76px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--interface-font-main-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.avatar {
+  width: 100%;
+  aspect-ratio: 5 / 6;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1023.98px) {
+  .AboutMe {
+    padding: 90px 50px;
+  }
+
+  .container {
+    grid-template-columns: 1fr 255px;
+    margin-bottom: 91px;
+  }
+
+  .info {
+    max-width: 364px;
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -1.6px;
+    margin-bottom: 16px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .AboutMe {
+    padding: 70px 14px;
+  }
+
+  .container {
+    grid-template-columns: 1fr 200px;
+    margin: 60px 0 70px;
+  }
+
+  .info {
+    max-width: 400px;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .text {
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .info {
+    max-width: 100%;
+  }
+
+  .avatar {
+    order: -1;
+    margin-bottom: 40px;
+    max-width: 300px;
+  }
+}
