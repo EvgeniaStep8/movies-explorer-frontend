@@ -1,6 +1,7 @@
 import styles from "./AboutMe.module.css";
 import SectionTitle from "../../UI/SectionTitle/SectionTitle";
 import avatar from "../../images/student.jpg";
+import Portfolio from "../Portfolio/Portfolio";
 
 const AboutMe = () => (
   <section className={styles.AboutMe}>
@@ -27,6 +28,7 @@ const AboutMe = () => (
       </div>
       <img src={avatar} alt="аватар" className={styles.avatar} />
     </div>
+    <Portfolio />
   </section>
 );
 
