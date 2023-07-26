@@ -21,6 +21,7 @@
 .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 20px;
   border-top: solid 1px var(--interface-stroke-2-color);
 }
@@ -28,6 +29,9 @@
 .copyright {
   padding: 0;
   margin: 0;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
   font-size: 13px;
   font-weight: 400;
   line-height: normal;
@@ -37,10 +41,14 @@
 .links {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .link {
   text-decoration: none;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
   font-size: 13px;
   font-weight: 400;
   line-height: normal;
@@ -49,4 +57,40 @@
 
 .link:hover {
   opacity: 0.7;
+}
+
+@media screen and (max-width: 1023.98px) {
+  .Footer {
+    padding: 79px 30px 20px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .Footer {
+    padding: 79px 10px 20px;
+  }
+
+  .title {
+    font-size: 12px;
+    margin-bottom: 21px;
+  }
+
+  .container {
+    padding-top: 30px;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .link {
+    font-size: 12px;
+  }
 }

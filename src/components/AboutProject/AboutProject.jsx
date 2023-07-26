@@ -27,7 +27,7 @@ const AboutProject = () => (
         <p className={styles.text}>Back-end</p>
       </div>
       <div className={styles.part}>
-        <div className={cn(styles.container, styles.frontend)}>5 недель</div>
+        <div className={cn(styles.container, styles.frontend)}>4 недели</div>
         <p className={styles.text}>Front-end</p>
       </div>
     </div>
