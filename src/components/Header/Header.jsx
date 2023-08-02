@@ -10,7 +10,7 @@ import CloseIcon from "../../UI/icons/CloseIcon";
 import BurgerIcon from "../../UI/icons/BurgerIcon";
 
 const Header = () => {
-  const [isBurgerOpen, setIsBurgerOpen] = useState(true);
+  const [isBurgerOpen, setIsBurgerOpen] = useState(false);
 
   const location = useLocation();
   const navigate = useNavigate();
