@@ -13,7 +13,7 @@ const MoviesCard = ({ nameRU, duration, image, saved }) => {
   };
 
   return (
-    <div className={styles.MoviesCard}>
+    <li className={styles.MoviesCard}>
       <div className={styles.header}>
         <h2 className={styles.title}>{nameRU}</h2>
         <p className={styles.duration}>{`${duration} минут`}</p>
@@ -31,7 +31,7 @@ const MoviesCard = ({ nameRU, duration, image, saved }) => {
           {!isSaved && "Сохранить"}
         </button>
       </div>
-    </div>
+    </li>
   );
 };
 
