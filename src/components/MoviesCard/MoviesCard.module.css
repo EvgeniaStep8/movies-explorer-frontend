@@ -64,6 +64,10 @@
   cursor: default;
 }
 
+.button:hover {
+  opacity: 0.8;
+}
+
 .deleteButton {
   background-image: url("../../images/delete-icon.svg");
   background-position: center;

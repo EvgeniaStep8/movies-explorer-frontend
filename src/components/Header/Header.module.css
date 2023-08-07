@@ -112,4 +112,15 @@
   .link {
     font-size: 10px;
   }
+
+  .container {
+    padding: 144px 10px 48px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .closeIcon {
+    top: 13px;
+    right: 13px;
+  }
 }
