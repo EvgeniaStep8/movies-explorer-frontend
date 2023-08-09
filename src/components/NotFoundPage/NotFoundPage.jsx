@@ -10,10 +10,8 @@ const NotFoundPage = () => {
 
   return (
     <div className={styles.NotFoundPage}>
-      <div className={styles.info}>
-        <h2 className={styles.title}>404</h2>
-        <p className={styles.text}>Страница не найдена</p>
-      </div>
+      <h2 className={styles.title}>404</h2>
+      <p className={styles.text}>Страница не найдена</p>
       <button
         type="button"
         className={styles.button}

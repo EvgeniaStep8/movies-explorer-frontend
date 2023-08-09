@@ -12,7 +12,9 @@
 }
 
 .authHeader {
-  padding: 0;
+  padding: 70px 0 0;
+  width: 396px;
+  margin: 0 auto;
 }
 
 .buttons {
