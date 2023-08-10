@@ -1,0 +1,161 @@
+.Header {
+  padding: 18px 70px;
+  background-color: var(--interface-primary-header-color);
+  display: flex;
+  gap: 44px;
+  position: relative;
+}
+
+.landingHeader {
+  justify-content: space-between;
+  background-color: var(--interface-landing-2-color);
+}
+
+.authHeader {
+  padding: 70px 0 0;
+  width: 396px;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  align-self: center;
+  gap: 30px;
+}
+
+.link {
+  color: var(--interface-landing-font-1-color);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  align-self: center;
+  text-decoration: none;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.burger {
+  flex-grow: 1;
+}
+
+.burgerIcon {
+  display: none;
+  border: none;
+  background-color: inherit;
+  width: 39px;
+  height: 39px;
+  background: url("../../images/burger-menu.svg") center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.burgerIcon:hover {
+  opacity: 0.8;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.closeIcon {
+  display: none;
+  border: none;
+  background-color: inherit;
+  width: 22px;
+  height: 22px;
+  background: url("../../images/close-icon.svg");
+  background-size: cover;
+  cursor: pointer;
+}
+
+.closeIcon:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1023.98px) {
+  .Header {
+    padding: 18px 30px;
+    justify-content: space-between;
+  }
+
+  .authHeader {
+    padding: 232px 0 0;
+  }
+
+  .burgerIcon {
+    display: block;
+  }
+
+  .burgerIconHidden {
+    display: none;
+  }
+
+  .burger {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--interdace-blackout-background-color);
+  }
+
+  .burgerOpen {
+    display: block;
+  }
+
+  .container {
+    height: 100vh;
+    padding: 159px 90px 92px;
+    box-sizing: border-box;
+    margin-left: auto;
+    width: 520px;
+    background-color: var(--interface-primary-color);
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .closeIcon {
+    display: block;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .Header {
+    padding: 18px 14px;
+  }
+
+  .authHeader {
+    width: 260px;
+    padding: 56px 0 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttons {
+    gap: 14px;
+  }
+
+  .link {
+    font-size: 10px;
+  }
+
+  .container {
+    padding: 144px 10px 48px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .closeIcon {
+    top: 13px;
+    right: 13px;
+  }
+}

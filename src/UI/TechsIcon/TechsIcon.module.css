@@ -1,0 +1,18 @@
+.TechsIcon {
+  padding: 21px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  color: var(--interface-font-main-color);
+  background-color: var(--interface-landing-icon-1-color);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1023.98px) {
+  .TechsIcon {
+    font-size: 12px;
+    letter-spacing: -0.48px;
+  }
+}

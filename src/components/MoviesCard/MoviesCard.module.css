@@ -1,0 +1,108 @@
+.MoviesCard {
+  width: 100%;
+  border-radius: 6px;
+  background: var(--interface-w-shadow-color);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  color: var(--interface-font-main-color);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.duration {
+  margin: 0;
+  padding: 0;
+  color: var(--interface-font-2-color);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 9 / 5;
+  object-fit: cover;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 18px;
+}
+
+.button {
+  padding: 0;
+  border: none;
+  display: flex;
+  width: 100px;
+  height: 29px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--interface-special-1-color);
+  color: var(--interface-font-main-color);
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 11px;
+}
+
+.button:disabled {
+  background-color: var(--interface-main-3-color);
+  background-image: url("../../images/check-icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: default;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.deleteButton {
+  background-image: url("../../images/delete-icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1023.98px) {
+  .MoviesCard:nth-child(n + 9) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .header {
+    padding: 14px;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+
+  .duration {
+    font-size: 10px;
+  }
+
+  .footer {
+    padding: 14px;
+  }
+}
+
+@media screen and (max-width: 424.98px) {
+  .MoviesCard:nth-child(n + 6) {
+    display: none;
+  }
+}

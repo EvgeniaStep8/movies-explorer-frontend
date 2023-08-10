@@ -1,0 +1,7 @@
+.App {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--interdace-background-color);
+}

@@ -1,0 +1,47 @@
+.Navigation {
+  display: flex;
+  gap: 16px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--interface-font-main-color);
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.mainLink {
+  display: none;
+}
+
+.selectLink {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1023.98px) {
+  .Navigation {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .link {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .mainLink {
+    display: inline;
+  }
+
+  .selectLink {
+    text-decoration: underline;
+  }
+}

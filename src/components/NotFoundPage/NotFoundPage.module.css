@@ -1,0 +1,74 @@
+.NotFoundPage {
+  padding: 246px 0 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 140px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--interface-font-main-color);
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--interface-font-main-color);
+  margin-bottom: 184px;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: inline;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: inherit;
+  color: var(--interface-main-2-color);
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1023.98px) {
+  .NotFoundPage {
+    padding: 408px 0 222px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .NotFoundPage {
+    padding: 329px 0 30px;
+  }
+
+  .title {
+    font-size: 80px;
+    margin-bottom: 10px;
+  }
+
+  .text {
+    margin-bottom: 284px;
+    font-size: 12px;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+}
