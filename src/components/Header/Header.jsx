@@ -6,8 +6,6 @@ import Logo from "../../UI/Logo/Logo";
 import Button from "../../UI/Button/Button";
 import Navigation from "../Navigation/Navigation";
 import AccountLink from "../AccountLink/AccountLink";
-import CloseIcon from "../../UI/icons/CloseIcon";
-import BurgerIcon from "../../UI/icons/BurgerIcon";
 
 const Header = () => {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
@@ -69,13 +67,17 @@ const Header = () => {
                   <div className={styles.container}>
                     <Navigation />
                     <AccountLink />
-                    <CloseIcon
+                    <button
                       className={styles.closeIcon}
                       onClick={onCloseIconClick}
+                      type="button"
+                      aria-label="кнопка закрыть"
                     />
                   </div>
                 </div>
-                <BurgerIcon
+                <button
+                  type="button"
+                  aria-label="Кнопка открытия бургерного меню"
                   className={cn(styles.burgerIcon, {
                     [styles.burgerIconHidden]: isBurgerOpen,
                   })}

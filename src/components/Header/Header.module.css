@@ -42,6 +42,17 @@
 
 .burgerIcon {
   display: none;
+  border: none;
+  background-color: inherit;
+  width: 44px;
+  height: 44px;
+  background: url("../../images/burger-menu.svg") center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.burgerIcon:hover {
+  opacity: 0.8;
 }
 
 .container {
@@ -53,6 +64,17 @@
 
 .closeIcon {
   display: none;
+  border: none;
+  background-color: inherit;
+  width: 22px;
+  height: 22px;
+  background: url("../../images/close-icon.svg");
+  background-size: cover;
+  cursor: pointer;
+}
+
+.closeIcon:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1023.98px) {

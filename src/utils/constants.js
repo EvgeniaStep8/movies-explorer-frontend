@@ -5,6 +5,7 @@ const movies = [
     image:
       "https://avatars.mds.yandex.net/get-kino-vod-films-gallery/1668876/a345b127722243984f01ef6504c9a477/380x240",
     saved: false,
+    id: 1,
   },
   {
     nameRU: "Титаник",
@@ -12,6 +13,7 @@ const movies = [
     image:
       "https://cdnn1.img.sputnik.tj/img/102399/96/1023999637_65:0:1554:1117_1920x0_80_0_0_08c1cff2093f7e7aa4ea7b42cd23cfde.jpg",
     saved: false,
+    id: 2,
   },
   {
     nameRU: "Звездные войны",
@@ -19,6 +21,7 @@ const movies = [
     image:
       "https://cs4.pikabu.ru/post_img/big/2016/01/10/2/1452384145172646876.jpg",
     saved: true,
+    id: 3,
   },
   {
     nameRU: "Убить Билла",
@@ -26,6 +29,7 @@ const movies = [
     image:
       "https://img.gazeta.ru/files3/941/16148941/upload-20030412_gaf_u55_014-pic_32ratio_1200x800-1200x800-37119.jpg",
     saved: false,
+    id: 4,
   },
   {
     nameRU: "От заката до рассвета",
@@ -33,18 +37,21 @@ const movies = [
     image:
       "https://cs10.pikabu.ru/post_img/big/2020/10/24/6/1603528778136419755.jpg",
     saved: false,
+    id: 5,
   },
   {
     nameRU: "Интерстеллар",
     duration: 169,
     image: "https://mospolytech.ru/upload/iblock/8ec/1575750671_4-4.jpg",
     saved: false,
+    id: 6,
   },
   {
     nameRU: "Вики Кристина Барселона",
     duration: 96,
     image: "https://www.film.ru/special/vcb/index_files/header.jpg",
     saved: true,
+    id: 7,
   },
   {
     nameRU: "Бойцовский клуб",
@@ -52,6 +59,7 @@ const movies = [
     image:
       "https://upload.wikimedia.org/wikipedia/ru/thumb/c/c1/Tyler_club.jpg/267px-Tyler_club.jpg",
     saved: false,
+    id: 8,
   },
   {
     nameRU: "Амели",
@@ -59,12 +67,14 @@ const movies = [
     image:
       "https://www.soyuz.ru/public/uploads/files/5/6873002/1005x558_2016111716454872c84cbc5d.jpg",
     saved: false,
+    id: 9,
   },
   {
     nameRU: "Застрявший в лифте",
     duration: 10,
     image: "https://raschetgkh.ru/images/i/lift.jpg?v1",
     saved: false,
+    id: 10,
   },
   {
     nameRU: "Разыгрывающийся дождь",
@@ -72,6 +82,7 @@ const movies = [
     image:
       "https://cdn.iz.ru/sites/default/files/article-2019-09/IMG_3701%20%281%29.jpg",
     saved: false,
+    id: 11,
   },
   {
     nameRU: "Бумажный самолетик",
@@ -79,6 +90,7 @@ const movies = [
     image:
       "https://s3.wi-fi.ru/cp3o/CpWW8Lhvdzav71Wepxx4rJ8C?response-content-type=image%2Fjpeg",
     saved: true,
+    id: 12,
   },
 ];
 

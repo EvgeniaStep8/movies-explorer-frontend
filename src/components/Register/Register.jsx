@@ -15,7 +15,7 @@ const Register = () => (
         type="text"
         id="register-name"
       />
-      <span className={styles.error}>error</span>
+      <span className={styles.error} />
       <label className={styles.label} htmlFor="register-email">
         E-mail
       </label>
@@ -24,7 +24,7 @@ const Register = () => (
         type="email"
         id="register-email"
       />
-      <span className={styles.error}>error</span>
+      <span className={styles.error} />
       <label className={styles.label} htmlFor="register-password">
         Пароль
       </label>
@@ -33,7 +33,7 @@ const Register = () => (
         type="password"
         id="register-password"
       />
-      <span className={styles.error}>error</span>
+      <span className={styles.error} />
       <Button isSubmit text="Зарегистрироваться" />
     </form>
     <p className={styles.text}>
