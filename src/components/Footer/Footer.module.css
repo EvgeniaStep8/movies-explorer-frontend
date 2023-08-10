@@ -1,4 +1,10 @@
 .Footer {
+  height: 1px;
+  width: 1px;
+  visibility: hidden;
+}
+
+.visibleFooter {
   box-sizing: border-box;
   padding: 79px 70px 20px;
   background-color: var(--interface-primary-footer-color);
@@ -60,13 +66,13 @@
 }
 
 @media screen and (max-width: 1023.98px) {
-  .Footer {
+  .visibleFooter {
     padding: 79px 30px 20px;
   }
 }
 
 @media screen and (max-width: 767.98px) {
-  .Footer {
+  .visibleFooter {
     padding: 73px 10px 20px;
   }
 

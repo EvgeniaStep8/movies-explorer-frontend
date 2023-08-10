@@ -8,7 +8,11 @@ const SearchForm = () => (
       <input type="text" placeholder="Фильм" className={styles.input} />
       <button type="submit" aria-label="Найти" className={styles.button} />
     </div>
-    <input type="checkbox" />
+    <label className={styles.label}>
+      <input type="checkbox" className={styles.checkbox} />
+      <span className={styles.visibleCheckbox} />
+      <span className={styles.text}>Короткометражки</span>
+    </label>
   </div>
 );
 
