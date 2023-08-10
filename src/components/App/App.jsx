@@ -20,7 +20,7 @@ const App = () => (
       <Route path="/signin" element={<Login />} />
       <Route
         path="/profile"
-        element={<Profile name="Жак Ив" email="someemail@mail.ru" />}
+        element={<Profile name="Василий" email="pochta@yandex.ru" />}
       />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>

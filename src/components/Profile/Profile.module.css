@@ -1,7 +1,8 @@
 .Profile {
   width: 410px;
-  padding: 74px 0 70px;
+  padding: 68px 0 70px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .title {
@@ -64,7 +65,7 @@
 }
 
 .edit {
-  margin-bottom: 16px;
+  margin-bottom: 11px;
 }
 
 .logout {
@@ -73,7 +74,7 @@
 
 @media screen and (max-width: 1023.98px) {
   .Profile {
-    padding: 236px 269px;
+    padding: 236px 0 269px;
   }
 
   .title {
@@ -81,7 +82,11 @@
   }
 
   .label:last-of-type {
-    margin-bottom: 210px;
+    margin-bottom: 206px;
+  }
+
+  .edit {
+    margin-bottom: 15px;
   }
 }
 
@@ -96,6 +101,10 @@
   }
 
   .label:last-of-type {
-    margin-bottom: 379px;
+    margin-bottom: 375px;
+  }
+
+  .edit {
+    margin-bottom: 15px;
   }
 }
