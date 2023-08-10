@@ -26,6 +26,7 @@
 .input {
   width: 100%;
   font-family: inherit;
+  color: var(--interdace-font-main-color);
   border: none;
   font-size: 14px;
   font-weight: 400;

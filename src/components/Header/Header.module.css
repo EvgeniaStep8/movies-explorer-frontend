@@ -61,6 +61,10 @@
     justify-content: space-between;
   }
 
+  .authHeader {
+    padding: 232px 0 0;
+  }
+
   .burgerIcon {
     display: block;
   }
@@ -105,6 +109,13 @@
 @media screen and (max-width: 767.98px) {
   .Header {
     padding: 18px 14px;
+  }
+
+  .authHeader {
+    width: 260px;
+    padding: 56px 0 0;
+    display: flex;
+    justify-content: center;
   }
 
   .buttons {

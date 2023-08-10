@@ -5,6 +5,7 @@ import Main from "../Main/Main";
 import Movies from "../Movies/Movies";
 import Register from "../Register/Register";
 import Login from "../Login/Login";
+import Profile from "../Profile/Profile";
 import NotFoundPage from "../NotFoundPage/NotFoundPage";
 import Footer from "../Footer/Footer";
 
@@ -17,6 +18,10 @@ const App = () => (
       <Route path="/saved-movies" element={<Movies savedMovies />} />
       <Route path="/signup" element={<Register />} />
       <Route path="/signin" element={<Login />} />
+      <Route
+        path="/profile"
+        element={<Profile name="Жак Ив" email="someemail@mail.ru" />}
+      />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
     <Footer visible />
