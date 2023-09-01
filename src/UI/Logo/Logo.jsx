@@ -3,7 +3,6 @@ import styles from "./Logo.module.css";
 const Logo = ({ onClick }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="none"
     className={styles.Logo}
     onClick={onClick}
   >
