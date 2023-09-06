@@ -1,0 +1,9 @@
+.Logo {
+  width: 38px;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
+
+.Logo:hover {
+  fill-opacity: 0.8;
+}

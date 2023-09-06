@@ -1,0 +1,20 @@
+.SectionTitle {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.88px;
+  color: var(--interface-font-main-color);
+  padding-bottom: 23px;
+  border-bottom: solid 1px var(--interface-stroke-landing-color);
+}
+
+@media screen and (max-width: 767.98px) {
+  .SectionTitle {
+    font-size: 18px;
+    letter-spacing: -0.72px;
+    padding-bottom: 28px;
+  }
+}
